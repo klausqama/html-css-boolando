@@ -18,7 +18,9 @@ ul, ol {
 img{
     max-width: 100%;
 }
+
 /* layout*/
+
 .container{
     max-width: 1024px;
     margin: 0 auto;
@@ -30,7 +32,9 @@ img{
 .col{
     width: calc(100%/3);
 }
+
 /* debug*/
+
 .debug .container, .debug .row, .debug .row >* {
     border: 2px solid;
 
@@ -41,13 +45,20 @@ img{
 .debug .row>*{
     border-color: blue;
 }
+
 /*header*/
+
 .main-header{
     background-color: #ff6900;
     color: white;
     padding: 20px 0;
 }
+.product{
+    padding: 80px 0;
+}
+
 /* footer*/
+
 .main-footer{
     background-color: #1a1a1a;
     color: white;
